@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Button, Input, Label } from "@/components/ui";
+import Link from 'next/link'
+import { Button, Input, Label } from '@/components/ui'
 
 export default function RecuperarSenhaPage() {
   return (
@@ -28,12 +28,12 @@ export default function RecuperarSenhaPage() {
           </Button>
         </div>
         <div className="mt-4 text-center text-sm">
-          Já tem uma conta?{" "}
+          Já tem uma conta?{' '}
           <Link href="/" className="underline">
             Fazer login
           </Link>
         </div>
       </div>
     </div>
-  );
+  )
 }

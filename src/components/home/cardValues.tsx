@@ -1,13 +1,13 @@
-import { icons } from "lucide-react";
-import { Icon } from "../icon";
-import { CardContent, CardHeader, Card as CardShadcn, CardTitle } from "../ui";
+import { icons } from 'lucide-react'
+import { Icon } from '../icon'
+import { CardContent, CardHeader, Card as CardShadcn, CardTitle } from '../ui'
 
 type CardProps = {
-  title: string;
-  value: string;
-  description: string;
-  icon: keyof typeof icons;
-};
+  title: string
+  value: string
+  description: string
+  icon: keyof typeof icons
+}
 
 export function CardValues({ title, value, description, icon }: CardProps) {
   return (
@@ -21,5 +21,5 @@ export function CardValues({ title, value, description, icon }: CardProps) {
         <p className="text-xs text-muted-foreground">{description}</p>
       </CardContent>
     </CardShadcn>
-  );
+  )
 }

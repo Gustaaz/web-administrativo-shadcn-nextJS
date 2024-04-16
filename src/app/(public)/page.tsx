@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { Button, Input, Label } from "@/components/ui";
+import Link from 'next/link'
+import { Button, Input, Label } from '@/components/ui'
 
 export default function LoginPage() {
   return (
@@ -45,12 +45,12 @@ export default function LoginPage() {
           </Button>
         </div>
         <div className="mt-4 text-center text-sm">
-          Não tem uma conta?{" "}
+          Não tem uma conta?{' '}
           <Link href="/cadastro" className="underline">
             Crie uma
           </Link>
         </div>
       </div>
     </div>
-  );
+  )
 }

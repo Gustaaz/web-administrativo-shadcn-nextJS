@@ -1,12 +1,7 @@
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "../ui";
+import { Card, CardContent, CardHeader, CardTitle } from '../ui'
 
 type CardRecentSalesProps = {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 
 export function CardRecentSales({ children }: CardRecentSalesProps) {
@@ -15,9 +10,7 @@ export function CardRecentSales({ children }: CardRecentSalesProps) {
       <CardHeader>
         <CardTitle>Recent Sales</CardTitle>
       </CardHeader>
-      <CardContent className="grid gap-8">
-        {children}
-      </CardContent>
+      <CardContent className="grid gap-8">{children}</CardContent>
     </Card>
-  );
+  )
 }

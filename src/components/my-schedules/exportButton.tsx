@@ -1,5 +1,5 @@
-import { File } from "lucide-react";
-import { Button } from "../ui";
+import { File } from 'lucide-react'
+import { Button } from '../ui'
 
 export function ExportButton() {
   return (
@@ -9,5 +9,5 @@ export function ExportButton() {
         Export
       </span>
     </Button>
-  );
+  )
 }

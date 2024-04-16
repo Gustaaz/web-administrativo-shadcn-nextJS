@@ -1,5 +1,5 @@
-import { PlusCircle } from "lucide-react";
-import { Button } from "../ui";
+import { PlusCircle } from 'lucide-react'
+import { Button } from '../ui'
 
 export function NewScheduleButton() {
   return (
@@ -9,5 +9,5 @@ export function NewScheduleButton() {
         Add Product
       </span>
     </Button>
-  );
+  )
 }

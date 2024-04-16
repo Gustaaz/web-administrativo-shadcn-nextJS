@@ -1,16 +1,16 @@
-"use client";
-import Link from "next/link";
-import { Tooltip, TooltipContent, TooltipTrigger } from "../ui";
-import { Icon } from "../icon";
-import { itemsMenus } from "@/ultls/itemnsMenus";
-import { useActiveMenu } from "@/hooks";
+'use client'
+import Link from 'next/link'
+import { Tooltip, TooltipContent, TooltipTrigger } from '../ui'
+import { Icon } from '../icon'
+import { itemsMenus } from '@/ultls/itemnsMenus'
+import { useActiveMenu } from '@/hooks'
 
 export function ItemSidebar() {
-  const { isActive } = useActiveMenu();
+  const { isActive } = useActiveMenu()
 
   const getActiveClass = (itemName: string) => {
-    return isActive(itemName) && "bg-accent";
-  };
+    return isActive(itemName) && 'bg-accent'
+  }
   return (
     <>
       {itemsMenus.map((item) => (
@@ -30,5 +30,5 @@ export function ItemSidebar() {
         </Tooltip>
       ))}
     </>
-  );
+  )
 }

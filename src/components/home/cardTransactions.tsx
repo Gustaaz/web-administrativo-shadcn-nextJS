@@ -1,17 +1,17 @@
-import Link from "next/link";
+import Link from 'next/link'
 import {
   Button,
   Card,
   CardContent,
   CardDescription,
   CardHeader,
-  CardTitle,
-} from "../ui";
-import { Icon } from "../icon";
+  CardTitle
+} from '../ui'
+import { Icon } from '../icon'
 
 type CardTransactionsProps = {
-  children?: React.ReactNode;
-};
+  children?: React.ReactNode
+}
 
 export function CardTransactions({ children }: CardTransactionsProps) {
   return (
@@ -32,5 +32,5 @@ export function CardTransactions({ children }: CardTransactionsProps) {
       </CardHeader>
       <CardContent>{children}</CardContent>
     </Card>
-  );
+  )
 }

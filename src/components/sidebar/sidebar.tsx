@@ -1,8 +1,8 @@
-import { Settings, Eye } from "lucide-react";
+import { Settings, Eye } from 'lucide-react'
 
-import Link from "next/link";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "../ui";
-import { ItemSidebar } from "./itemSidebar";
+import Link from 'next/link'
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui'
+import { ItemSidebar } from './itemSidebar'
 
 export function Sidebar() {
   return (
@@ -36,5 +36,5 @@ export function Sidebar() {
         </TooltipProvider>
       </nav>
     </aside>
-  );
+  )
 }

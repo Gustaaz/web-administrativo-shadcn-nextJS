@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { Eye, PanelLeft } from "lucide-react";
-import { Button, Sheet, SheetContent, SheetTrigger } from "../ui";
-import { ItemSidebarMobile } from "./itemSidebarMobile";
+import Link from 'next/link'
+import { Eye, PanelLeft } from 'lucide-react'
+import { Button, Sheet, SheetContent, SheetTrigger } from '../ui'
+import { ItemSidebarMobile } from './itemSidebarMobile'
 
 export const SidebarMobile = () => {
   return (
@@ -32,5 +32,5 @@ export const SidebarMobile = () => {
         </nav>
       </SheetContent>
     </Sheet>
-  );
-};
+  )
+}

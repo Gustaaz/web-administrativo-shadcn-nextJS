@@ -1,4 +1,4 @@
-import { ListFilter } from "lucide-react";
+import { ListFilter } from 'lucide-react'
 import {
   Button,
   DropdownMenu,
@@ -6,8 +6,8 @@ import {
   DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "../ui";
+  DropdownMenuTrigger
+} from '../ui'
 
 export function FilterButtons() {
   return (
@@ -28,5 +28,5 @@ export function FilterButtons() {
         <DropdownMenuCheckboxItem>Archived</DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  );
+  )
 }

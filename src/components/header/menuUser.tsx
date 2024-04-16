@@ -1,4 +1,4 @@
-import { User } from "lucide-react";
+import { User } from 'lucide-react'
 import {
   Button,
   DropdownMenu,
@@ -6,8 +6,8 @@ import {
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "../ui";
+  DropdownMenuTrigger
+} from '../ui'
 
 export function MenuUser() {
   return (
@@ -21,7 +21,7 @@ export function MenuUser() {
           <User
             width={36}
             height={36}
-            className="overflow-hidden rounded-full bg-black text-white dark:bg-white dark:text-gray-600 px-2"
+            className="overflow-hidden rounded-full bg-black px-2 text-white dark:bg-white dark:text-gray-600"
           />
         </Button>
       </DropdownMenuTrigger>
@@ -34,5 +34,5 @@ export function MenuUser() {
         <DropdownMenuItem>Logout</DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  );
+  )
 }

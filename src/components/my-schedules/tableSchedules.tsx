@@ -1,4 +1,4 @@
-import { MoreHorizontal } from "lucide-react";
+import { MoreHorizontal } from 'lucide-react'
 import {
   Badge,
   Button,
@@ -12,8 +12,8 @@ import {
   TableCell,
   TableHead,
   TableHeader,
-  TableRow,
-} from "../ui";
+  TableRow
+} from '../ui'
 
 export function TableSchedules() {
   return (
@@ -85,5 +85,5 @@ export function TableSchedules() {
         </TableRow>
       </TableBody>
     </Table>
-  );
+  )
 }

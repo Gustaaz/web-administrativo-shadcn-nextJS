@@ -3,8 +3,8 @@ import {
   CardTransactions,
   CardValues,
   ListRecentSales,
-  TableTransactions,
-} from "@/components/home";
+  TableTransactions
+} from '@/components/home'
 
 export default function InicioPage() {
   return (
@@ -40,9 +40,9 @@ export default function InicioPage() {
           <TableTransactions />
         </CardTransactions>
         <CardRecentSales>
-          <ListRecentSales/>
+          <ListRecentSales />
         </CardRecentSales>
       </div>
     </main>
-  );
+  )
 }

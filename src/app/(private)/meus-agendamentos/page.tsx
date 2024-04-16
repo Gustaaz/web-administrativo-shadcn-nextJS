@@ -3,9 +3,9 @@ import {
   ExportButton,
   FilterButtons,
   NewScheduleButton,
-  TableSchedules,
-} from "@/components/my-schedules";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui";
+  TableSchedules
+} from '@/components/my-schedules'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui'
 
 export default function MeusAgendamentosPage() {
   return (
@@ -33,5 +33,5 @@ export default function MeusAgendamentosPage() {
         </TabsContent>
       </Tabs>
     </main>
-  );
+  )
 }

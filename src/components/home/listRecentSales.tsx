@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from "../ui";
+import { Avatar, AvatarFallback, AvatarImage } from '../ui'
 
 export function ListRecentSales() {
   return (
@@ -63,5 +63,5 @@ export function ListRecentSales() {
         <div className="ml-auto font-medium">+$39.00</div>
       </div>
     </>
-  );
+  )
 }

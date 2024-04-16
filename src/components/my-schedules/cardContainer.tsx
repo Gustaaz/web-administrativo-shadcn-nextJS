@@ -4,13 +4,21 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
-} from "../ui";
-import { Pagination, PaginationContent, PaginationEllipsis, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "../ui/pagination";
+  CardTitle
+} from '../ui'
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious
+} from '../ui/pagination'
 
 type CardContainerProps = {
-  children: React.ReactNode;
-};
+  children: React.ReactNode
+}
 
 export function CardContainer({ children }: CardContainerProps) {
   return (
@@ -22,7 +30,7 @@ export function CardContainer({ children }: CardContainerProps) {
         </CardDescription>
       </CardHeader>
       <CardContent>{children}</CardContent>
-      <CardFooter className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2">
+      <CardFooter className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1">
         <div className="text-xs text-muted-foreground">
           Showing <strong>1-10</strong> of <strong>32</strong> products
         </div>
@@ -52,5 +60,5 @@ export function CardContainer({ children }: CardContainerProps) {
         </Pagination>
       </CardFooter>
     </Card>
-  );
+  )
 }
